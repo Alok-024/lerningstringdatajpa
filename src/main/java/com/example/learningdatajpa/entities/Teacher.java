@@ -1,16 +1,15 @@
 package com.example.learningdatajpa.entities;
 
 public class Teacher {
-    private int Tid;
+    private int teacherId;
     private String name;
 
-
-    public int getTid() {
-        return Tid;
+    public int getId() {
+        return teacherId;
     }
 
-    public void setTid(int Tid) {
-        this.Tid = Tid;
+    public void setId(int id) {
+        this.teacherId = id;
     }
 
     public String getName() {
