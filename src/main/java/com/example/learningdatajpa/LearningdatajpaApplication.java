@@ -8,6 +8,7 @@ public class LearningdatajpaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearningdatajpaApplication.class, args);
+		System.out.println("Heelo dummy");
 	}
 
 }
