@@ -5,6 +5,8 @@ public class Teacher {
     private String name;
     private static final float PI=3.14f;
 
+    private double salary;
+
     public int getId() {
         return teacherId;
     }
@@ -19,6 +21,14 @@ public class Teacher {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
 }
