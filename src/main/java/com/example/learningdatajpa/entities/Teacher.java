@@ -3,6 +3,7 @@ package com.example.learningdatajpa.entities;
 public class Teacher {
     private int teacherId;
     private String name;
+    private static final float PI=3.14f;
 
     public int getId() {
         return teacherId;
